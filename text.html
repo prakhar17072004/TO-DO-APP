@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO DO APP</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+        <script src="./firebase.js"></script>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        
+        <div class="back-image">
+                <img  src="background-images/bg-1.webp">
+                
+        </div>
+         <div class="gg">
+
+         </div>   
+
+        
+        
+        <div class="container">
+            <div class="header">
+                <div class="title">
+                    TODO     
+     
+                 </div>
+                 <div class="light">
+                    <img src="background-images/bg-6.png">
+                 </div>
+                </div>
+               
+              <div class="new-todo">
+                   <div class="check">
+                       <div class="check-mark">
+
+                       </div>
+                   </div>
+                   <div class="new-todo-input">
+                      <form onsubmit="addItem(event)">
+                        <input id="todo-input" class="search-box" type="text" placeholder="creat new thing">
+                       </form>
+                    
+                    </div>
+                </div>
+                <div class="todo-items-wrapper">
+                    <div class="todo-items">
+                        <div class="todo-item">
+                            <div class="check">
+                                <div class="check-mark">
+                                    <img src="background-images/bg-8.png">
+                                </div>
+                                
+
+                            </div>
+                            <div class="todo-text">
+                                cut the lawn
+                            </div>
+                        </div>
+                    </div>
+                   
+               
+                </div>
+                <div class="todo-items-wrapper">
+                    <div class="todo-items">
+                        <div class="todo-item">
+                            <div class="check">
+                                <div class="check-mark">
+                                    <img src="background-images/bg-8.png">
+                                </div>
+                                
+
+                            </div>
+                            <div class="todo-text">
+                                Hello 
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="todo-items-wrapper">
+                    <div class="todo-items">
+                        <div class="todo-item">
+                            <div class="check">
+                                <div class="check-mark">
+                                    <img src="background-images/bg-8.png">
+                                </div>
+                                
+
+                            </div>
+                            <div class="todo-text">
+                                how are you
+                            </div>
+                        </div>
+                    </div>
+                    
+                <div class="todo-items-wrapper">
+                    <div class="todo-items">
+                        <div class="todo-item">
+                            <div class="check">
+                                <div class="check-mark">
+                                    <img src="background-images/bg-8.png">
+                                </div>
+                            </div>
+                            <div class="todo-text">
+                                All the  best
+                            </div>
+                        </div>
+                    </div>
+                    
+               
+                </div>
+                <div class="todo-items-wrapper">
+                    <div class="todo-items">
+                        <div class="todo-item">
+                            <div class="check">
+                                <div class="check-mark">
+                                    <img src="background-images/bg-8.png">
+                                
+
+                            </div>
+                            <div class="todo-text">
+                                Super!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="todo-items-info">
+                        <div class="items-left">
+                            5items left
+                         </div>
+                         <div class="items-statuses">
+                           <span>All</span>
+                           <span>Active</span>
+                           <span>Complete</span>
+                         </div>
+                         <div class="items-right">
+                           Clear Completed
+                         </div>
+                    </div>
+                    
+              </div>
+                    
+          </div>
+           
+          
+          
+        </div>
+    </body>
+</html>
